@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         //
 //        System.out.println("1、一般测试：");
-        int arrLen = 100;
-        Integer[] arr = (Integer[]) SortTestHelper.generateRandomArray(arrLen,0,200);
+        int arrLen = 5;
+        Integer[] arr = (Integer[]) SortTestHelper.generateRandomArray(arrLen,0,10);
 //        Integer[] arr11 = (Integer[]) SortTestHelper.generateRandomArray(arrLen,0,100);
 ////        Integer[] arr = SortTestHelper.generateNearlyRandomArray(arrLen,100);
 
@@ -33,15 +33,15 @@ public class Main {
 //        SortTestHelper.testSort("demo02.SelectionSort",arr31);
 //        SortTestHelper.testSort("demo02.InsertSort",arr32);
 
-//        SortTestHelper.printArray(arr);
+        SortTestHelper.printArray(arr);
 //
-//        BubbleSort.sort(arr);
-//        SortTestHelper.printArray(arr);
+        BubbleSort.sort(arr);
+        SortTestHelper.printArray(arr);
 
-        String m = "AAAABBBjksdlasdal";
+//        String m = "AAAABBBjksdlasdal";
 
-        String n = SortTestHelper.StringArrayToString(Enum.arr2);
-        SortTestHelper.count(n);
+//        String n = SortTestHelper.StringArrayToString(Enum.arr2);
+//        SortTestHelper.count(n);
 
     }
 }
